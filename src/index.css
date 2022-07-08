@@ -117,5 +117,26 @@ img {
 
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
 
+@media screen and (max-wdith: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
 
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+
+@media screen and (max-wdith: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-top: 2rem;
+    }
+}
 
